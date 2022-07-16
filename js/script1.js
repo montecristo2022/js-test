@@ -160,6 +160,9 @@
 
 
 
+
+
+
 // ответ пользователя будет малыми буквами
 // let brand = prompt("давай бренд");
 // brand = brand.toLowerCase();
@@ -175,6 +178,8 @@
 // let brand = "SamSUnG"
 // brand = brand[0] + brand.slice(1).toLowerCase();
 // console.log(brand);
+
+
 
 
 
@@ -631,7 +636,7 @@
 // const max = 5;
 // let total = 0;
 
-// // фор от мин до макс с шагом 1
+// // фор от мин до  с шагом 1
 
 // for (let i = min; i <= max; i += 1) {
 
@@ -774,6 +779,16 @@
 // });
 
 
+//    // Change code below this line
+
+// const array = message.split(" ")
+// const quantityArray = array.length
+// const totalPrice = quantityArray * pricePerWord
+
+// return totalPrice
+
+//    // Change code above this line
+// }
 
 
 
@@ -781,8 +796,28 @@
 
 
 
+// // ищеим самое большое
+
+// const numbers = [7, 12, 8, 16, 1]
+// // let biggest = 0
+// // for (let i = 0; i < numbers.length; i += 1) {
+// //     if (numbers[i] > biggest) {
+// //         biggest = numbers[i]
+        
+// //     }
+// // }
+// // console.log(biggest)
 
 
+// ваирант 2
+
+//  let biggestNumber = 0;
+// for (const number of numbers) {
+//     if (number > biggestNumber) {
+//         biggestNumber = number;
+//     }
+// }
+// console.log(biggestNumber)
 
 
 
